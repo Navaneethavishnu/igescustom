@@ -284,7 +284,7 @@ a.left-topbar-item:hover {
 
 /*---------------------------------------------*/
 .logo {
-  width: 25%;
+  width: 55%;
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -297,7 +297,7 @@ a.left-topbar-item:hover {
 
 .logo img {
   max-width: 100%;
-  max-height: 50%;
+  max-height: 253%;
 }
 
 /*---------------------------------------------*/
@@ -1871,26 +1871,27 @@ a.breadcrumb-item:hover {
 }
 #iges{
   color:white;
-  background-color: #17b978;
+  background-color: #399bf0;
   padding:10px;
   text-align: center;
   margin-bottom: 10px;
 }
 #backbanner{
-opacity: 0.2;
-fill-opacity: unset;
+
+height: 500px;
 }
-#backhome{
+
+#home1{
   background-size: cover;
   height: 500px;
 }
 #home2{
   background-size: cover;
-  height: 250px;
+  height: 500px;
 }
 #home3{
   background-size: cover;
-  height: 250px;
+  height: 500px;
 }
 #bann{
   margin-bottom: 50px;
@@ -1902,4 +1903,56 @@ fill-opacity: unset;
   font-size: 30px;
   margin-top: 150px;
   font-family: cursive;
+}
+#mandiate{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#mandiate2{
+  text-align: center;
+}
+#mandiate2 li{
+  font-size: 18px;
+}
+#inititle a{
+  text-align: justify;
+  font-size: 18px;
+}
+#highlight{
+  margin-left: 148px;
+  margin-right: 148px;
+}
+.highlight{
+background-color:#d40164;
+padding:10px;
+color:white;
+}
+.announce{
+  background-color:#399bf0;
+padding:10px;
+color:white;
+}
+.ourteam{
+  background-color:#17b978;
+padding:10px;
+color:white;
+}
+#announ{
+  height: 300px;
+  overflow-y: scroll;
+}
+#titlebanner{
+  margin-top: 10px;
+  font-size: 28px;
+  margin-top: -9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+
+  text-shadow: 5px 5px 2px #eeeeee;
+}
+#headiges{
+
 }
