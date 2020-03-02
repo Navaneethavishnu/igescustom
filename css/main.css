@@ -277,7 +277,7 @@ a.left-topbar-item:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 125px;
+  height: 75px;
   padding-top: 25px;
   padding-bottom: 10px;
 }
@@ -394,13 +394,14 @@ a.left-topbar-item:hover {
 .main-menu > li {
   height: 100%;
   position: relative;
+  padding-left: 50px;
 }
 
 .main-menu > li > a {
   font-family: Roboto-Medium;
   font-size: 16px;
   line-height: 1.5;
-  color: #222;
+  color: #17b978;
   
   position: relative;
   display: -webkit-box;
@@ -562,7 +563,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 
 .main-menu > li:hover > a {
   text-decoration: none;
-  color: #17b978;
+  color: deeppink;
 }
 
 .main-menu > li:hover > .sub-menu {
