@@ -1876,3 +1876,30 @@ a.breadcrumb-item:hover {
   text-align: center;
   margin-bottom: 10px;
 }
+#backbanner{
+opacity: 0.2;
+fill-opacity: unset;
+}
+#backhome{
+  background-size: cover;
+  height: 500px;
+}
+#home2{
+  background-size: cover;
+  height: 250px;
+}
+#home3{
+  background-size: cover;
+  height: 250px;
+}
+#bann{
+  margin-bottom: 50px;
+}
+#igestitle{
+  color: deeppink;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 150px;
+  font-family: cursive;
+}
