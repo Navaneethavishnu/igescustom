@@ -30,7 +30,7 @@
 	<!-- Header -->
 	<header>
 		<!-- Header desktop -->
-		<div class="container-menu-desktop">
+		<div class="container-menu-desktop fix-menu-desktop">
 			<div class="topbar">
 				<div class="content-topbar container h-100">
 					<div class="left-topbar">
@@ -234,7 +234,7 @@
 			
 			<!--  -->
 			<div class="wrap-main-nav">
-				<div class="main-nav">
+				<div class="main-nav show-main-nav">
 					<!-- Menu desktop -->
 					<nav class="menu-desktop">
 						<a class="logo-stick" href="index.html">
@@ -256,16 +256,16 @@
 
 								<div class="sub-mega-menu">
 									<div class="nav flex-column nav-pills" role="tablist">
-										<a class="nav-link active" data-toggle="pill" href="#news-0" role="tab">All</a>
+										<a class="nav-link" data-toggle="pill" href="#news-0" role="tab" aria-expanded="false">All</a>
 										<a class="nav-link" data-toggle="pill" href="#news-1" role="tab">Entertaiment</a>
 										<a class="nav-link" data-toggle="pill" href="#news-2" role="tab">Fashion</a>
 										<a class="nav-link" data-toggle="pill" href="#news-3" role="tab">Life Style</a>
 										<a class="nav-link" data-toggle="pill" href="#news-4" role="tab">Technology</a>
-										<a class="nav-link" data-toggle="pill" href="#news-5" role="tab">Travel</a>
+										<a class="nav-link active" data-toggle="pill" href="#news-5" role="tab" aria-expanded="true">Travel</a>
 									</div>
 
 									<div class="tab-content">
-										<div class="tab-pane show active" id="news-0" role="tabpanel">
+										<div class="tab-pane" id="news-0" role="tabpanel" aria-expanded="false">
 											<div class="row">
 												<div class="col-3">
 													<!-- Item post -->	
@@ -905,7 +905,7 @@
 											</div>
 										</div>
 
-										<div class="tab-pane" id="news-5" role="tabpanel">
+										<div class="tab-pane active" id="news-5" role="tabpanel" aria-expanded="true">
 											<div class="row">
 												<div class="col-3">
 													<!-- Item post -->	
@@ -2296,133 +2296,243 @@
 	</div>
 
 	<!-- Page heading -->
-	<div class="container p-t-4 p-b-35">
+	
+
+	<!-- Content -->
+	<section class="bg0 p-b-110">
+    <div class="row">
+				<div class="col-lg-4" id="home1" style="background-image: url('images/2.jpg');">
+				</div>
+				<div class="col-lg-4" id="home2" style="background-image: url('images/4.jpg');">
+					<!-- <div class="row" id="home2" style="background-image: url('images/ourteam/team.jpg');">
+					</div>
+					<div class="row" id="home3" style="background-image: url('images/material/back3.jpg');">
+					</div> -->
+				</div>
+				<div class="col-lg-4" id="home3" style="background-image: url('images/3.jpg');">
+
+				</div>
+			</div>
+		<div class="container">
+    <div class="container p-t-4 p-b-35">
 		<h2 class="f1-l-1 cl2">
 			About Us
 		</h2>
 	</div>
-
-	<!-- Content -->
-	<section class="bg0 p-b-110">
-		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-md-7 col-lg-8 p-b-30">
+				<div class="col-md-10 col-lg-10 p-b-30">
 					<div class="p-r-10 p-r-0-sr991">
-						<p class="f1-s-11 cl6 p-b-25">
-							Curabitur volutpat bibendum molestie. Vestibulum ornare gravida semper. Aliquam a dui suscipit, fringilla metus id, maximus leo. Vivamus sapien arcu, mollis eu pharetra vitae, condimentum in orci. Integer eu sodales dolor. Maecenas elementum arcu eu convallis rhoncus. Donec tortor sapien, euismod a faucibus eget, porttitor quis libero. 
-						</p>
+						<p class="f1-s-11 cl6 p-b-25">Initiative for Gender Equity and Sensitisation (IGES) at IIT Delhi aims to develop a model, where the unit will undertake gender sensitization activities and will also, identify opportunities to reduce gender gaps in STEM disciplines and to co-facilitate the gender mainstreaming exercise with the support of the Institute’s administration.</p>
 
-						<p class="f1-s-11 cl6 p-b-25">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet est vel orci luctus sollicitudin. Duis eleifend vestibulum justo, varius semper lacus condimentum dictum. Donec pulvinar a magna ut malesuada. In posuere felis diam, vel sodales metus accumsan in. Duis viverra dui eu pharetra pellentesque. Donec a eros leo. Quisque sed ligula vitae lorem efficitur faucibus. Praesent sit amet imperdiet ante. Nulla id tellus auctor, dictum libero a, malesuada nisi. Nulla in porta nibh, id vestibulum ipsum. Praesent dapibus tempus erat quis aliquet. Donec ac purus id sapien condimentum feugiat.
-						</p>
+						<p class="f1-s-11 cl6 p-b-25">It calls for integrating social responsibility into scientific and engineering disciplines and looks forward to strengthen institutional bureaucracy to be gender-sensitive. Therefore the IGES team calls for a robust team led by the executive committee – with faculty members, staff members, student representatives, from diverse fields (science, engineering and social sciences)and diverse skills, with collective interest, sensitivity towards gender and sexual diversities and commitment to implement strategies to deal with gender gaps and discrimination, to achieve the above-mentioned goals.</p>
 
-						<p class="f1-s-11 cl6 p-b-25">
-							Praesent vel mi bibendum, finibus leo ac, condimentum arcu. Pellentesque sem ex, tristique sit amet suscipit in, mattis imperdiet enim. Integer tempus justo nec velit fringilla, eget eleifend neque blandit. Sed tempor magna sed congue auctor. Mauris eu turpis eget tortor ultricies elementum. Phasellus vel placerat orci, a venenatis justo. Phasellus faucibus venenatis nisl vitae vestibulum. Praesent id nibh arcu. Vivamus sagittis accumsan felis, quis vulputate
-						</p>
-					</div>
+						
+					</div><div class="f1-l-1 cl2" id="mandiate">IGES Mandate</div><a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+
+							<li>Encouraging Gender Dialogues in the field of STEM</li>
+							<li>Advocating a zero-tolerance policy against sexual harassment</li>
+							<li>Creating an equal, inclusive and gender-just educational environment</li>
+						</a>
+
+    
+
+
 				</div>
 				
 				<!-- Sidebar -->
-				<div class="col-md-5 col-lg-4 p-b-30">
-					<div class="p-l-10 p-rl-0-sr991 p-t-5">
-						<!-- Popular Posts -->
-						<div>
-							<div class="how2 how2-cl4 flex-s-c">
-								<h3 class="f1-m-2 cl3 tab01-title">
-									Popular Post
-								</h3>
-							</div>
-
-							<ul class="p-t-35">
-								<li class="flex-wr-sb-s p-b-30">
-									<a href="#" class="size-w-10 wrap-pic-w hov1 trans-03">
-										<img src="images/popular-post-04.jpg" alt="IMG">
-									</a>
-
-									<div class="size-w-11">
-										<h6 class="p-b-4">
-											<a href="#" class="f1-s-5 cl3 hov-cl10 trans-03">
-												Donec metus orci, malesuada et lectus vitae
-											</a>
-										</h6>
-
-										<span class="cl8 txt-center p-b-24">
-											<a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
-												Music
-											</a>
-
-											<span class="f1-s-3 m-rl-3">
-												-
-											</span>
-
-											<span class="f1-s-3">
-												Feb 18
-											</span>
-										</span>
-									</div>
-								</li>
-
-								<li class="flex-wr-sb-s p-b-30">
-									<a href="#" class="size-w-10 wrap-pic-w hov1 trans-03">
-										<img src="images/popular-post-05.jpg" alt="IMG">
-									</a>
-
-									<div class="size-w-11">
-										<h6 class="p-b-4">
-											<a href="#" class="f1-s-5 cl3 hov-cl10 trans-03">
-												Donec metus orci, malesuada et lectus vitae
-											</a>
-										</h6>
-
-										<span class="cl8 txt-center p-b-24">
-											<a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
-												Game
-											</a>
-
-											<span class="f1-s-3 m-rl-3">
-												-
-											</span>
-
-											<span class="f1-s-3">
-												Feb 16
-											</span>
-										</span>
-									</div>
-								</li>
-
-								<li class="flex-wr-sb-s p-b-30">
-									<a href="#" class="size-w-10 wrap-pic-w hov1 trans-03">
-										<img src="images/popular-post-06.jpg" alt="IMG">
-									</a>
-
-									<div class="size-w-11">
-										<h6 class="p-b-4">
-											<a href="#" class="f1-s-5 cl3 hov-cl10 trans-03">
-												Donec metus orci, malesuada et lectus vitae
-											</a>
-										</h6>
-
-										<span class="cl8 txt-center p-b-24">
-											<a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
-												Celebrity
-											</a>
-
-											<span class="f1-s-3 m-rl-3">
-												-
-											</span>
-
-											<span class="f1-s-3">
-												Feb 12
-											</span>
-										</span>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+				
 			</div>
+    <div class="tab01 p-b-20">
+									<div class="tab01-head how2 how2-cl2 bocl12 flex-s-c m-r-10 m-r-0-sr991">
+										<!-- Brand tab -->
+										<button class="ourteam">Our Team</button>
+		
+										<!-- Nav tabs -->
+										<ul class="nav nav-tabs" role="tablist"><li class="nav-item">
+												<a class="nav-link active" data-toggle="tab" href="#tab2-1" role="tab" aria-expanded="true">
+													Advisory Committee</a>
+											</li><li class="nav-item">
+												<a class="nav-link" data-toggle="tab" href="#tab2-2" role="tab" aria-expanded="false">Core executive
+													committee</a>
+											</li><li class="nav-item">
+												<a class="nav-link" data-toggle="tab" href="#tab2-3" role="tab" aria-expanded="false">Student
+													Committee</a>
+											</li>
+											
+		
+											
+		
+											
+											<li class="nav-item-more dropdown dis-none">
+												<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+													<i class="fa fa-ellipsis-h"></i>
+												</a>
+		
+												<ul class="dropdown-menu">
+		
+												</ul>
+											</li>
+										</ul>
+									</div>
+		
+		
+									<!-- Tab panes -->
+									<div class="tab-content p-t-35">
+										<!-- - -->
+										<div class="tab-pane fade active show" id="tab2-1" role="tabpanel" aria-expanded="true">
+											<div class="row">
+												<div class="col-sm-6 p-r-25 p-r-15-sr991">
+													<!-- Item post -->
+													<div class="m-b-30">
+														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+															<img src="images/11.jpg" alt="IMG">
+														</a>
+		
+														<div class="p-t-20">
+															<h5 class="p-b-5">
+																<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+																	Advisory Committee Members
+																</a>
+															</h5>
+		
+															<span class="cl8">
+																<a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+																	Finance
+																</a>
+		
+																<span class="f1-s-3 m-rl-3">
+																	-
+																</span>
+		
+																<span class="f1-s-3">
+																	Feb 18
+																</span>
+															</span>
+														</div>
+													</div>
+												</div>
+		
+												<div class="col-sm-6 p-r-25 p-r-15-sr991">
+													<!-- Item post -->
+													<div class="flex-wr-sb-s m-b-30">
+		
+		
+														<div class="size-w-0">
+															<h5 class="p-b-5">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+																	♦ Deputy Director Operations<br>
+																	♦ Dean Student Welfare, Hostel Management, BRAC, <br>
+																	♦ Internal
+																	Complaints Committee member<br>
+																	♦ Faculty members<br>
+																	♦ Student members – General Secretaries of all the existing
+																	boards<br>
+																	♦ IGES Program Officers<br>
+																	♦ Special Invitees<br>
+																</a>
+															</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+		
+										<!-- - -->
+										<div class="tab-pane fade" id="tab2-2" role="tabpanel" aria-expanded="false">
+											<div class="row">
+												<div class="col-sm-6 p-r-25 p-r-15-sr991">
+													<!-- Item post -->
+													<div class="m-b-30">
+														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+															<img src="images/12.jpg" alt="IMG">
+														</a>
+		
+														<div class="p-t-20">
+															<h5 class="p-b-5">
+																<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+																	core executive committee
+																</a>
+															</h5>
+														</div>
+													</div>
+												</div>
+		
+												<div class="col-sm-6 p-r-25 p-r-15-sr991">
+													<!-- Item post -->
+													<div class="flex-wr-sb-s m-b-30">
+		
+														<div class="size-w-0">
+															<h5 class="p-b-5">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+																	♦ Faculty members – Prof. Ravinder Kaur (Convenor), Prof. G.
+																	Bhuvaneshwari, Prof. Narayanan Kurur, Prof. Shalini Gupta,
+																	Prof. Neetu Singh, Prof. Geetam Tiwari, Prof. Deepti Gupta
+																	and Prof. Sumeet Agarwal.<br>
+																	♦ Student Representatives – Sumallya Mukhopadhyay, Deepa
+																	Bhardwaj, Umesh Shahdadpuri and Neharika Singhal<br>
+																	♦ IGES Program Officers – Anupriya Ghosh and Mridu Kamal ♦
+																	Founding Core Group - Prof. Ravinder Kaur (Convenor), Prof.
+																	G. Bhuvaneshwari, Prof.<br>
+																	Sangeeta Kohli, Prof. Amitabha Bagchi, Prof. Shalini Gupta
+																	and Prof. Sumeet Agarwal.
+																</a>
+															</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+		
+										<!-- - -->
+										<div class="tab-pane fade" id="tab2-3" role="tabpanel" aria-expanded="false">
+											<div class="row">
+												<div class="col-sm-6 p-r-25 p-r-15-sr991">
+													<!-- Item post -->
+													<div class="m-b-30">
+														<a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+															<img src="images/13.jpg" alt="IMG">
+														</a>
+		
+														<div class="p-t-20">
+															<h5 class="p-b-5">
+																<a href="blog-detail-01.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+																	Student Committee
+																</a>
+															</h5>
+														</div>
+													</div>
+												</div>
+		
+												<div class="col-sm-6 p-r-25 p-r-15-sr991">
+													<!-- Item post -->
+													<div class="flex-wr-sb-s m-b-30">
+														<div class="size-w-2">
+															<h5 class="p-b-5">
+																<a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+																	♦ UG and PG representatives from each IITD board and unit.
+																</a>
+															</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+    <div class="how2 how2-cl4 flex-s-c">
+										
+										<button class="announce">Announcements</button>
+									</div>
+<p>IGES founded in 2018, succeeded the Gender Awareness Committee (GAC), founded and led by two gender-sensitive and active female faculty members at IIT Delhi - Prof. Ravinder Kaur (present IGES Convenor) and Prof. Sangeeta Kohli (present IIT Delhi ICC Chairperson, ex-IGES Core Committee member) who are also the founding members of IGES, with other faculty members from science and engineering fields.
+</p>
+<p>
+Amongst the various responsibilities of the founding members, a significant one was the nomination of the IGES core committee members, who are sensitive and keen to institutionalise strategies to integrate gender diversity and address concerns across the IIT community; and appointing two external experts as women Program Officers, who are responsible for strategizing and visioning IGES role within IIT Delhi. The diverse composition of the core team has helped IGES members to develop a holistic understanding on the issues and strategic needs of different members of the institute. It has helped to co-own, co-learn and share responsibilities of mainstreaming gender sensitivity, gender justice and equity.</p>
+<p>IGES presently is attempting to design and develop a unique model in IIT Delhi, an amalgamation of science with social consciousness and responsibilities. It is still in an emerging state. New roles and strategies are being designed, adapted and piloted each day to build the roadmap for the unit, which later could also inspire IITs all over the country to adopt and adapt. Thus, it’s a learning journey for us all.</p>
 		</div>
+    
+
+
+
 	</section>
 
 	<!-- Footer -->
@@ -2568,7 +2678,7 @@
 
 							<li class="how-bor1 p-rl-5 p-tb-10">
 								<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
-									DIY & Crafts (16)
+									DIY &amp; Crafts (16)
 								</a>
 							</li>
 						</ul>
@@ -2583,7 +2693,7 @@
 					Copyright © 2018 
 
 					<a href="#" class="f1-s-1 cl10 hov-link1"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright ©<script>document.write(new Date().getFullYear());</script>2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by </a><a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</span>
 			</div>
@@ -2591,7 +2701,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 
 	<!-- Back to top -->
-	<div class="btn-back-to-top" id="myBtn">
+	<div class="btn-back-to-top show-btn-back-to-top" id="myBtn">
 		<span class="symbol-btn-back-to-top">
 			<span class="fas fa-angle-up"></span>
 		</span>
@@ -2607,6 +2717,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+
 
 </body>
 </html>

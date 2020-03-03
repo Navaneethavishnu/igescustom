@@ -277,7 +277,7 @@ a.left-topbar-item:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 75px;
+  height: 117px;
   padding-top: 25px;
   padding-bottom: 10px;
 }
@@ -441,7 +441,7 @@ a.left-topbar-item:hover {
 }
 
 .main-menu > li > a::after {
-  content: "\f2f9";
+  
   font-family: Material-Design-Iconic-Font;
   font-size: 16px;
   color: #222;
@@ -594,7 +594,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 
 .sub-mega-menu {
   flex-wrap: wrap;
-  position: absolute;
+
   top: 100%;
   left: 0;
   background-color: #fff;
@@ -641,6 +641,7 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 .sub-mega-menu .show>.nav-pills .nav-link {
   color: #fff;
   background-color: #17b978;
+  
 }
 
 /*---------------------------------------------*/
@@ -941,7 +942,8 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 }
 
 .tab01 .nav-link:hover {
-  color: #17b978 !important;
+  color: white !important;
+  background-color:#17b978;
 }
 
 
@@ -1894,7 +1896,8 @@ height: 500px;
   height: 500px;
 }
 #bann{
-  margin-bottom: 50px;
+  margin-bottom: -7px;
+  background-color: white;
 }
 #igestitle{
   color: deeppink;
@@ -1950,9 +1953,38 @@ color:white;
   font-weight: 700;
   text-transform: uppercase;
   color: black;
-
+  line-height: 25px;
   text-shadow: 5px 5px 2px #eeeeee;
 }
-#headiges{
-
+#titlecase{
+  margin-top: -174px;
+    margin-left: 50px;
+    margin-bottom: 104px;
+    box-shadow: 0 8px 6px 2px black;
+}
+.annountext{
+  background-color:white;
+  height: 200px;
+  weight:200px; 
+  padding-top:100px;
+  margin-bottom: 100px;
+}
+.bannertitle{
+  color: black;
+    background: white;
+    text-align: center;
+    padding: 17px;
+    font-size: 26px;
+    margin-left: 63px;
+    font-weight: 400;
+}
+#ullist li {
+  list-style-type: square;
+}
+#focus{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 13px;
+  color:black;
+  font-weight: 600;
 }
